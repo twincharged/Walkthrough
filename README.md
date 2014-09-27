@@ -73,7 +73,7 @@ Example:
 ```jade
 link(href="./css/demo.css" rel="stylesheet")
 ```
-vs
+versus
 ```html
 <link href="./css/demo.css" rel="stylesheet">
 ```
@@ -86,7 +86,7 @@ html(lang="en")
   body
     p Hello!
 ```
-vs
+versus
 ```html
 <html lang="en">
   <head>
@@ -102,7 +102,7 @@ There are a couple more important things. Ids and classes are different. In Jade
 section#intro.background-black
   p.large-text.centered Jade is awesome!
 ```
-vs
+versus
 ```html
 <section id="intro" class="background-black">
   <p class="large-text centered">Jade is awesome!</p>
@@ -112,8 +112,13 @@ One more quick thing that is optional, but generally considered good practice: y
 ```jade
 #main-box.background-red
   p Cool, huh?
+  
+// is the same as this:
+
+div#main-box.background-red
+  p Cool, huh?
 ```
-vs
+versus the compiled html
 ```html
 <div id="main-box" class="background-red">
   <p>Cool, huh?</p>
