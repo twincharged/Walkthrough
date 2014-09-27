@@ -189,7 +189,7 @@ To use, you just indent the specific css sub-classes (like `.main-box` and `.mai
 
 Mixins are fairly easy to understand. Just think of them as reusable chunks of code. Example:
 
-```stylus
+```sass
 placement(tp, rt, bm, lt)
   top: tp
   right: rt
@@ -212,4 +212,4 @@ section#intro
 
 It's like calling a JS function, but it'll place everything in the function body inside whatever element it is called.
 
-In powershell, you compile the Stylus like you would jade using `stylus [your file name].styl`.
+In powershell, you compile the Stylus like you would jade using `stylus [your file name].styl`. To install the Stylus Sublime syntax highlighting, follow the same steps as the Jade highlighting above, but look for the package under "stylus" and it should be the first one by billymoon. The rest of the documentation on Stylus is here: http://learnboost.github.io/stylus/. Tell me if you have any issues with any of these steps.
