@@ -205,9 +205,9 @@ section#intro
 section#intro
   color: #333
   top: 5px
-  left: 10px
-  bottom: 5px
   right: 10px
+  bottom: 5px
+  left: 10px
 ```
 
 It's like calling a JS function, but it'll place everything in the function body inside whatever element it is called.
