@@ -70,4 +70,25 @@ And here's the equivalent HTML it compiles to:
 There's two huge syntax differences. Jade lets you forgo the angle brackets and makes you instead use parenthesis to surround the element's attributes.
 Example:
 
-```link(href="./css/demo.css" rel="stylesheet")``` vs ```<link href="./css/demo.css" rel="stylesheet">```
+```jade
+link(href="./css/demo.css" rel="stylesheet")
+```
+vs
+```html
+<link href="./css/demo.css" rel="stylesheet">
+```
+
+The second difference is that Jade allows you to skip all closing tags if you use indentation instead. This is the same concept as CoffeeScript and Stylus. Example:
+```jade
+html(lang="en")
+  head
+    title Modules
+```
+vs
+```html
+<html lang="en">
+  <head>
+    <title>Modules</title>
+  </head>
+</html>
+```
