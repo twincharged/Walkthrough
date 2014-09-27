@@ -110,17 +110,17 @@ versus
 ```
 One more quick thing that is optional, but generally considered good practice: you don't have to type `div` tags. This is because they're the most common tag. Example:
 ```jade
-#main-box.background-red
+.background-red
   p Cool, huh?
   
 // is the same as this:
 
-div#main-box.background-red
+div.background-red
   p Cool, huh?
 ```
 versus the compiled html
 ```html
-<div id="main-box" class="background-red">
+<div class="background-red">
   <p>Cool, huh?</p>
 </div>
 ```
