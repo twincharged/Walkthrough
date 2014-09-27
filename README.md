@@ -15,26 +15,27 @@ When Node is done installing open your powershell and type `npm install -g jade`
 
 Jade is epic. It's a preprocessor. A preprocessor means that it will give you extra facilities to use and it will translate down into a language (in Jade's case it translates to HTML). Jade aims to help you easily build more maintainable, intelligent, and beautiful HTML. Here's a rundown of its main features.
 
-|----------------------------------------------|-----------------------------------------------------------------------
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
-|                                              |
+              Jade                            |                               HTML
+----------------------------------------------|-----------------------------------------------------------------------
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
