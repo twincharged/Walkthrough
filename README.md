@@ -78,7 +78,7 @@ vs
 <link href="./css/demo.css" rel="stylesheet">
 ```
 
-The second difference is that Jade allows you to skip all closing tags if you use indentation instead. This is the same concept as CoffeeScript and Stylus. Example:
+The second difference is that Jade allows you to skip all closing tags if you use indentation instead. This is the same concept as CoffeeScript and Stylus (which are also preprocessors). Example:
 ```jade
 html(lang="en")
   head
@@ -96,4 +96,15 @@ vs
     <p>Hello!</p>
   </body>
 </html>
+```
+There are a couple more important things. Ids and classes are different. In Jade, you should use ids and classes like you would in css (with the #hash and the .dot). Example:
+```jade
+section#intro.background-black
+  p.large-text.centered Jade is awesome!
+```
+vs
+```html
+<section id="intro" class="background-black">
+  <p class="large-text centered">Jade is awesome!</p>
+</section>
 ```
