@@ -54,12 +54,18 @@ And here's the equivalent HTML it compiles to:
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="dashed">This is my new HTML page!</div>
+            <div class="dashed">
+              This is my new HTML page!
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6"><a href="#" class="box outer">Outer</a></div>
-          <div class="col-md-6"><a href="#" class="box target">Target</a></div>
+          <div class="col-md-6">
+            <a class="box outer" href="#">Outer</a>
+          </div>
+          <div class="col-md-6">
+            <a class="box target" href="#">Target</a>
+          </div>
         </div>
       </div>
     </section>
