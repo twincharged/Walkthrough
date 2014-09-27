@@ -185,7 +185,7 @@ section#intro .main-box:hover
     color: #111
 ```
 
-To use, you just indent the specific css sub-classes (like `.main-box` and `.main-box:hover` in this case) under the parent element (`section#into`) and use the `&` sign to reference the parent element. This means that, in the example above, the first `&` sign references the `section#intro` and the second, more indented `&` sign references `section#intro .main-box`.
+To use, you just indent the specific css sub-classes (like `.main-box` and `.main-box:hover` in this case) under the parent selector (`section#into`) and use the `&` sign to reference the parent selector. This means that, in the example above, the first `&` sign references the `section#intro` and the second, more indented `&` sign references `section#intro .main-box`.
 
 Mixins are fairly easy to understand. Just think of them as reusable chunks of code. Example:
 
