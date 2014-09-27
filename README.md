@@ -149,4 +149,16 @@ a.button {
   border-radius: 5px;
 }
 ```
-You can forgo typing the semicolons and braces by using indentation. You can also forget the colons, but don't.
+You can forgo typing the semicolons and braces by using indentation. You can also forget the colons, but don't. It just makes it confusing without them. There are three more really important things with Stylus that you'll use often: nesting, variables, and mixins.
+
+Variables are the easiest. You just assign any css value you want to a variable. Example:
+```sass
+$main-color = #777
+$main-fonts = Helvetica, Arial, sans-serif
+
+// and use them like this:
+
+body
+  color: $main-color
+  font-family: $main-fonts
+```
