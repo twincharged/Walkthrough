@@ -83,6 +83,8 @@ The second difference is that Jade allows you to skip all closing tags if you us
 html(lang="en")
   head
     title Modules
+  body
+    p Hello!
 ```
 vs
 ```html
@@ -90,5 +92,8 @@ vs
   <head>
     <title>Modules</title>
   </head>
+  <body>
+    <p>Hello!</p>
+  </body>
 </html>
 ```
