@@ -67,7 +67,7 @@ And here's the equivalent HTML it compiles to:
 </html>
 ```
 
-There's two huge syntax differences. Jade lets you forgo the <angle brackets> and makes you instead use parenthesis to surround the element's attributes.
+There's two huge syntax differences. Jade lets you forgo the angle brackets and makes you instead use parenthesis to surround the element's attributes.
 Example:
 
 ```link(href="./css/demo.css" rel="stylesheet")``` vs ```<link href="./css/demo.css" rel="stylesheet">```
