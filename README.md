@@ -136,7 +136,7 @@ When you create your first Jade file, you compile it using the NPM package you d
 
 ## Stylus
 
-Stylus shares a lot of the same principles as Jade, such as indentation. Aka:
+Stylus shares a lot of the same principles as Jade, such as whitespace significance. Aka:
 ```sass
 body
   font: 12px Helvetica, Arial, sans-serif
