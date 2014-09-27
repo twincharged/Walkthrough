@@ -179,10 +179,10 @@ section#intro
   background: #555
 
 section#intro .main-box
-    color: #999
+  color: #999
 
 section#intro .main-box:hover
-    color: #111
+  color: #111
 ```
 
 To use, you just indent the specific css sub-classes (like `.main-box` and `.main-box:hover` in this case) under the parent selector (`section#into`) and use the `&` sign to reference the parent selector. This means that, in the example above, the first `&` sign references the `section#intro` and the second, more indented `&` sign references `section#intro .main-box`.
