@@ -17,20 +17,14 @@ Jade is epic. It's a preprocessor. A preprocessor means that it will give you ex
 
               Jade                            |                               HTML
 ----------------------------------------------|-----------------------------------------------------------------------
-```
-dsfa
-sdfa
-asfd
-sfda
-sdfa
-```
                                               |
-                                              |
-                                              |
-                                              |
-                                              |
-                                              |
-                                              |
+```                                           |
+dsfa                                          |
+sdfa                                          |
+asfd                                          |
+sfda                                          |
+sdfa                                          |
+```                                           |
                                               |
                                               |
                                               |
