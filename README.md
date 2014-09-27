@@ -125,12 +125,12 @@ versus the compiled html
 </div>
 ```
 
-When ou create your first Jade file, you compile it using the NPM package you downloaded. Just go to the powershell and type `jade [your file name].jade` and it will create the equivalent HTML file in the same directory as the Jade file that you just compiled. As far as Jade sublime syntax highlighting goes, you can download it by going into Sublime and hitting `ctrl`+ `shift` + ` p` and start typing `install` in the prompt. Select the box that says "Package control: install package". You will be given another prompt. Type in "jade" and select the package by davidrios. If the syntax of your Jade file doesn't automatically update, go to the bottom right of sublime and select Jade (not the python version) from the list. More Jade info here: http://jade-lang.com/
+When you create your first Jade file, you compile it using the NPM package you downloaded. Just go to the powershell and type `jade [your file name].jade` and it will create the equivalent HTML file in the same directory as the Jade file that you just compiled. As far as Jade sublime syntax highlighting goes, you can download it by going into Sublime and hitting `ctrl`+ `shift` + ` p` and start typing `install` in the prompt. Select the box that says "Package control: install package". You will be given another prompt. Type in "jade" and select the package by davidrios. If the syntax of your Jade file doesn't automatically update, go to the bottom right of sublime and select Jade (not the python version) from the list. More Jade info here: http://jade-lang.com/
 
 
 ## Stylus
 
-Stylus shares a lot of the same principles as Jade. Aka:
+Stylus shares a lot of the same principles as Jade, such as indentation. Aka:
 ```sass
 body
   font: 12px Helvetica, Arial, sans-serif
