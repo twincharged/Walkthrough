@@ -84,7 +84,7 @@ versus
 <link href="./css/demo.css" rel="stylesheet">
 ```
 
-The second difference is that Jade allows you to skip all closing tags if you use indentation instead. This concept, known as "significant whitespace", is shared with other well-known preprocessors, such as CoffeeScript and Stylus. Example:
+The second difference is that Jade allows you to skip all closing tags if you use indentation instead. This concept, known as "significant whitespace", is shared with a couple other well-known preprocessors, such as CoffeeScript and Stylus. Example:
 ```jade
 html(lang="en")
   head
