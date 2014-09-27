@@ -108,3 +108,14 @@ vs
   <p class="large-text centered">Jade is awesome!</p>
 </section>
 ```
+One more quick thing that is optional, but generally considered good practice: `div` tags are optional. This is because they're the most common tag. Example:
+```jade
+#main-box.background-red
+  p Cool, huh?
+```
+vs
+```html
+<div id="main-box" class="background-red">
+  <p>Cool, huh?</p>
+</div>
+```
