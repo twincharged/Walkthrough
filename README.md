@@ -151,7 +151,7 @@ a.button {
 ```
 You can forgo typing the semicolons and braces by using indentation. You can also forget the colons, but don't. It just makes it confusing without them. There are three more really important things with Stylus that you'll use often: nesting, variables, and mixins.
 
-Variables are the easiest. You just assign any css value you want to a variable. Example:
+Variables are the simplest. You just assign any css value you want to a variable. Example:
 ```sass
 $main-color = #777
 $main-fonts = Helvetica, Arial, sans-serif
@@ -162,3 +162,52 @@ body
   color: $main-color
   font-family: $main-fonts
 ```
+
+Nesting is very useful for organization and logic. Example:
+```sass
+section#intro
+  background: #555
+  & .main-box
+    color: #999
+    &:hover
+      color: #111
+
+
+// is equivalent to this:
+
+section#intro
+  background: #555
+
+section#intro .main-box
+    color: #999
+
+section#intro .main-box:hover
+    color: #111
+```
+
+To use, you just indent the specific css sub-classes (like `.main-box` and `.main-box:hover` in this case) under the parent element (`section#into`) and use the `&` sign to reference the parent element. This means that, in the example above, the first `&` sign references the `section#intro` and the second, more indented `&` sign references `section#intro .main-box`.
+
+Mixins are fairly easy to understand. Just think of them as reusable chunks of code. Example:
+
+```sass
+placement(tp, rt, bm, lt)
+  top: tp
+  right: rt
+  bottom: bm
+  left: lt
+
+section#intro
+  color: #333
+  placement(5px, 10px, 5px, 10px)
+
+// will create this:
+
+section#intro
+  color: #333
+  top: 5px
+  left: 10px
+  bottom: 5px
+  right: 10px
+```
+
+It's like calling a JS function, but it'll place everything in the function body inside whatever element it is called.
