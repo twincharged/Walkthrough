@@ -189,7 +189,7 @@ To use, you just indent the specific css sub-classes (like `.main-box` and `.mai
 
 Mixins are fairly easy to understand. Just think of them as reusable chunks of code. Example:
 
-```sass
+```stylus
 placement(tp, rt, bm, lt)
   top: tp
   right: rt
@@ -211,3 +211,5 @@ section#intro
 ```
 
 It's like calling a JS function, but it'll place everything in the function body inside whatever element it is called.
+
+In powershell, you compile the Stylus like you would jade using `stylus [your file name].styl`.
