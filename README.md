@@ -210,6 +210,6 @@ section#intro
   left: 10px
 ```
 
-It's like calling a JS function, but it'll place everything in the function body inside whatever element it is called.
+It's like calling a JS function, but it'll place everything in the function body inside whatever selector it was called from.
 
 In powershell, you compile the Stylus like you would jade using `stylus [your file name].styl`. To install the Stylus Sublime syntax highlighting, follow the same steps as the Jade highlighting above, but look for the package under "stylus" and it should be the first one by billymoon. The rest of the documentation on Stylus is here: http://learnboost.github.io/stylus/. Tell me if you have any issues with any of these steps.
